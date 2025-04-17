@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class Spawner : MonoBehaviour
+public class Spawner : Singleton<Spawner>
 {
     //variables
     //lista de objetos que van a spawnear
     [SerializeField] List<GameObject> objects = new List<GameObject>();
     //lugares predeterminados donde van a aparecer los huevos
     [SerializeField] List<Transform> positions = new List<Transform>();
+    //numero de objetos en la escena, cuando este numero sea 0, canSpawn sera true
+    int eggsCount;
     //tiempo en el que volvera a spawnear huevos, despues que los jugadores hayan recolectado los ya spawneados
     [SerializeField] float timeToSpawn;
     //numero de objetos que se spawnearan
@@ -16,7 +19,29 @@ public class Spawner : MonoBehaviour
     //booleano para saber si se puede spawnear
     [SerializeField] bool canSpawn = true;
 
+    //properties
+    protected override bool persistent => false;
+
+    public int EggsCount
+    {
+        get => eggsCount;
+
+        set
+        {
+            eggsCount = value;
+            if (eggsCount == 0)
+            {
+                canSpawn = true;
+            }
+        }
+    }
+
     //methods
+
+    protected override void Awake()
+    {
+        base.Awake();
+    }
 
     private void Start()
     {
@@ -26,7 +51,8 @@ public class Spawner : MonoBehaviour
     void Spawn()
     {
         //lista de posiciones, se iran eliminando las que se han usado para no repetir posiciones
-        List<Transform> positionsUsed = positions;
+        List<Transform> positionsUsed = new List<Transform>();
+        positionsUsed.AddRange(positions);
 
         for (int i = 0; i < spawnCount; i++)
         {
@@ -37,7 +63,9 @@ public class Spawner : MonoBehaviour
             //instanciar el objeto random en la ubicacion random
             Instantiate(objects[randomObj], positionsUsed[randomPosition].position, Quaternion.identity);
             //quitar la posicion usada de la lista
-            positionsUsed.RemoveAt(randomObj);
+            positionsUsed.Remove(positionsUsed[randomPosition]);
+            //sumar 1 a eggsCount para contar los huevos spawneados
+            eggsCount++;
         }
         canSpawn = false;
     }
@@ -48,7 +76,7 @@ public class Spawner : MonoBehaviour
     {
         while (true)
         {
-            if (canSpawn)
+            if (canSpawn == true)
             {
                 yield return new WaitForSeconds(timeToSpawn);
                 Spawn();
