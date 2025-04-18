@@ -8,6 +8,7 @@ public class Egg : MonoBehaviour
         {
             Spawner.instance.EggsCount--;
             Debug.Log("he tomado un huevo");
+            ScoreManager.instance.GetScore(player.PlayerID);
             Destroy(gameObject);
         }
     }
