@@ -27,7 +27,10 @@ public class FrozenEgg : PickableObject
             {
                 if (coll2.TryGetComponent(out Player _player))
                 {
-                    _player.FrostPlayer();
+                    if(_player != player)
+                    {
+                        _player.FrostPlayer();
+                    }
                 }
             }
             player.TargetArea();

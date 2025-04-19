@@ -21,6 +21,21 @@ public class ScoreManager : Singleton<ScoreManager>
     //properties
     protected override bool persistent => false;
 
+    //propiedades para los puntajes de los jugadores, de esa manera poder verlo desde otro script
+    public int ScorePlayer1
+    {
+        get => scorePlayer1;
+
+        private set => scorePlayer1 = value;
+    }
+
+    public int ScorePlayer2
+    {
+        get => scorePlayer2;
+
+        private set => scorePlayer2 = value;
+    }
+
     //methods
     protected override void Awake()
     {
@@ -30,14 +45,20 @@ public class ScoreManager : Singleton<ScoreManager>
 
     private void Update()
     {
-        timer -= Time.deltaTime;
+        if(timer > 0)
+        {
+            timer -= Time.deltaTime;
+        }
+        else
+        {
+            timer = 0;
+        }
         //cambiar el timer a entero y asignarselo a textTime
         int time = (int)timer;
         textTime.text = time.ToString();
 
         if(timer <= 0)
         {
-            GameManager.SwitchState(GameState.GameOver);
             OnGameOver?.Invoke();
         }
     }

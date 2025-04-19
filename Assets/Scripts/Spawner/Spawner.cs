@@ -8,6 +8,8 @@ public class Spawner : Singleton<Spawner>
     //variables
     //lista de objetos que van a spawnear
     [SerializeField] List<GameObject> objects = new List<GameObject>();
+    //lista de objetos especiales(Power Up)
+    [SerializeField] List<GameObject> specialObjects = new List<GameObject>();
     //lugares predeterminados donde van a aparecer los huevos
     [SerializeField] List<Transform> positions = new List<Transform>();
     //numero de objetos en la escena, cuando este numero sea 0, canSpawn sera true
@@ -67,6 +69,11 @@ public class Spawner : Singleton<Spawner>
             //sumar 1 a eggsCount para contar los huevos spawneados
             eggsCount++;
         }
+        //spawnear un objeto especial
+        int SpecialIndex = Random.Range(0, specialObjects.Count);
+        int SpecialPosition = Random.Range(0, positionsUsed.Count);
+        specialObjects[SpecialIndex].transform.position = positionsUsed[SpecialPosition].position;
+        specialObjects[SpecialIndex].gameObject.SetActive(true);
         canSpawn = false;
     }
 
