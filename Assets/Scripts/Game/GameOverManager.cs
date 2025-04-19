@@ -5,6 +5,7 @@ public class GameOverManager : MonoBehaviour
 {
     //variables
     [SerializeField] TextMeshProUGUI winnerText;
+    [SerializeField] GameObject EndGamePanel;
 
     //methods
     private void OnEnable()
@@ -14,14 +15,14 @@ public class GameOverManager : MonoBehaviour
 
     private void OnDisable()
     {
-        ScoreManager.OnGameOver += GameOver;
+        ScoreManager.OnGameOver -= GameOver;
     }
 
     void GameOver()
     {
         GameManager.SwitchState(GameState.GameOver);
         CalculateScore();
-        winnerText.gameObject.SetActive(true);
+        EndGamePanel.SetActive(true);
     }
 
     void CalculateScore()

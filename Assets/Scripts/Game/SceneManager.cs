@@ -8,39 +8,22 @@ public class SceneManager : Singleton<SceneManager>
     private bool isLoading = false;
 
     //properties
-    protected override bool persistent => true;
+    protected override bool persistent => false;
 
     //methods
+    protected override void Awake()
+    {
+        base.Awake();
+    }
+
     public void LoadScene(string sceneName)
     {
-        if (isLoading) return;
-        isLoading = true;
-
-        StartCoroutine(AsyncLoad(sceneName));
+        UnitySceneManager.LoadScene(sceneName);
+        Debug.Log("haz cambiado a la escena " + (sceneName));
     }
 
-    //coroutines
-     IEnumerator AsyncLoad(string sceneName)
+    public void ExitGame()
     {
-        // Primero cargaremos la escena utilizando la función LoadSceneAsync del SceneManager de Unity
-        // y guardaremos esa operación en una variable de tipo AsyncOperation.
-        AsyncOperation asyncOperation = UnitySceneManager.LoadSceneAsync(sceneName);
-
-        // Luego le quitaremos el permiso para cargar hasta que nosotros volvamos a activar la variable.
-        asyncOperation.allowSceneActivation = false;
-
-        while (asyncOperation.progress < 0.9f)
-        {
-            yield return null;
-        }
-
-        // Y finalmente, como la escena ya cargó habilitaremos la transición a ella y estableceremos que 
-        // ya no estamos cargando una escena para habilitar la función LoadAsync de nuevo.
-        asyncOperation.allowSceneActivation = true;
-        isLoading = false;
-
+        Application.Quit();
     }
-
-
-
 }
