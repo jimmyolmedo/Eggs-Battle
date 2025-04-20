@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 24.971424, y: 24.971424, z: 24.971424}
+  m_LocalScale: {x: 9.741852, y: 9.741852, z: 9.741852}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6817736860046784877}
@@ -166,8 +166,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -939573357
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -930613858175837437, guid: da55d3413afcf5b408198c4efce3a48e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -372,8 +372,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerID: 0
-  effectZone: {fileID: 0}
-  pM: {fileID: 0}
+  effectZone: {fileID: 3660611360446037507}
+  pM: {fileID: 3333856912949236736}
   pickedObject: {fileID: 0}
   freezeCount: 0
   freezeTime: 0

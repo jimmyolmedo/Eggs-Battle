@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.17, y: 0.58, z: 0}
-  m_LocalScale: {x: 0.39896, y: 0.39896, z: 0.39896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 537226854403730595}
@@ -79,10 +79,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -939573357
+  m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -9086448132376905649, guid: 0da1e3b9e5340954ba91aae1e83a4a48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,6 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 200
   rb: {fileID: 2877221892336703112}
+  animator: {fileID: 0}
 --- !u!114 &3477563704705571285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,7 +269,7 @@ MonoBehaviour:
     m_ActionId: 055e3edb-dc45-46cf-af0a-cd2c8fc39903
     m_ActionName: 'Player2/Attack[/Keyboard/numpad0]'
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Arrows
+  m_DefaultControlScheme: 
   m_DefaultActionMap: Player2
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
@@ -285,8 +286,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerID: 1
-  effectZone: {fileID: 0}
+  effectZone: {fileID: 5984671936213939261}
+  pM: {fileID: 6919043368567165366}
   pickedObject: {fileID: 0}
+  freezeCount: 0
+  freezeTime: 0
 --- !u!61 &2096055531516483552
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -325,7 +329,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.5625, y: 0.8125}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -360,7 +364,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 24.971422, y: 24.971422, z: 24.971422}
+  m_LocalScale: {x: 9.962599, y: 9.962599, z: 9.962599}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 105906247708622474}
