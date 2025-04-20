@@ -74,6 +74,7 @@ public class Spawner : Singleton<Spawner>
         int SpecialPosition = Random.Range(0, positionsUsed.Count);
         specialObjects[SpecialIndex].transform.position = positionsUsed[SpecialPosition].position;
         specialObjects[SpecialIndex].gameObject.SetActive(true);
+        eggsCount++;
         canSpawn = false;
     }
 

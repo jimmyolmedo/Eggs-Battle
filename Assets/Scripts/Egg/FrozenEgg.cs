@@ -8,6 +8,7 @@ public class FrozenEgg : PickableObject
         if (collision.TryGetComponent(out Player player))
         {
             player.PickObject(this);
+            Spawner.instance.EggsCount--;
             gameObject.SetActive(false);
         }
     }
