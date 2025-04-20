@@ -3,12 +3,17 @@ using UnityEngine.InputSystem;
 
 public class FrozenEgg : PickableObject
 {
+    protected override void AudioPicked()
+    {
+        base.AudioPicked();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.TryGetComponent(out Player player))
         {
             player.PickObject(this);
             Spawner.instance.EggsCount--;
+            AudioPicked();
             gameObject.SetActive(false);
         }
     }

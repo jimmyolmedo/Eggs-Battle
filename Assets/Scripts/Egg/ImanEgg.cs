@@ -4,6 +4,10 @@ using UnityEngine.InputSystem;
 
 public class ImanEgg : PickableObject
 {
+    protected override void AudioPicked()
+    {
+        base.AudioPicked();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -11,6 +15,7 @@ public class ImanEgg : PickableObject
         {
             player.PickObject(this);
             Spawner.instance.EggsCount--;
+            AudioPicked();
             gameObject.SetActive(false);
         }
     }
