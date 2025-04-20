@@ -42,6 +42,7 @@ public class PlayerMovement : MonoBehaviour
         if(GameManager.CurrentState != GameState.Gameplay) { return; }
 
         move =context.ReadValue<Vector2>();
+        Debug.Log("esoty moviendome");
         if(context.started)
         {
             IsTryMoving = true;
