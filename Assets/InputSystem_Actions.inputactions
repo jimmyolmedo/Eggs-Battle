@@ -977,7 +977,7 @@
                     "path": "<Keyboard>/numpad0",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Arrows",
+                    "groups": ";Keyboard&Mouse;Arrows",
                     "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
