@@ -61,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GirlBonny_0: 8145960904264663368
+      GirlBonny_1: 4563446882091642170
+      GirlBonny_2: 2693105434510369131
+      GirlBonny_3: 3886850008841897327
+      GirlBonny_4: 7445345942258852230
+      GirlBonny_5: 8206530807768140290
+      GirlBonny_6: -9086448132376905649
+      GirlBonny_7: -8398147825382683848
+      GirlBonny_8: 1844373147517416510
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
