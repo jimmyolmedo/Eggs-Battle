@@ -47,6 +47,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickedAudio: {fileID: 8300000, guid: 4f05cb8fc010d9647bed6682534f6817, type: 3}
+  sprites:
+  - {fileID: 3929453942698372637, guid: e49414864d69939469831f5e37c1c3c1, type: 3}
+  - {fileID: 1026407549584056185, guid: e49414864d69939469831f5e37c1c3c1, type: 3}
+  - {fileID: -3086720242725003937, guid: e49414864d69939469831f5e37c1c3c1, type: 3}
+  spriteRenderer: {fileID: 7899642285789434046}
 --- !u!70 &6115309255394401076
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -111,7 +116,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.350956, y: 0.350956, z: 0.350956}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6042101609865899524}
@@ -157,10 +162,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 207688749
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2217599882555570210, guid: 9b5a8dfbab1149043a10ee4eafdd5c5f, type: 3}
+  m_Sprite: {fileID: 1026407549584056185, guid: e49414864d69939469831f5e37c1c3c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      huevo iman_0: 6041231758653109927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
