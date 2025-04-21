@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class ScoreManager : Singleton<ScoreManager>
 {
@@ -10,6 +11,9 @@ public class ScoreManager : Singleton<ScoreManager>
     //texto para mostrar los 2 score
     [SerializeField] TextMeshProUGUI textScore1;
     [SerializeField] TextMeshProUGUI textScore2;
+    //imagen en la UI de los jugadores(se usaran para feedback de obtener huevos)
+    [SerializeField] Transform posIconPlayer1;
+    [SerializeField] Transform posIconPlayer2;
     //tiempo que va a durar la partida
     [SerializeField] float gameTime;
     //variable que se usara como cronometro
@@ -77,5 +81,14 @@ public class ScoreManager : Singleton<ScoreManager>
             scorePlayer2++;
             textScore2.text = scorePlayer2.ToString();
         }
+    }
+
+    public Transform GetPositionIcon(int _id)
+    {
+        if(_id == 0)
+        {
+            return posIconPlayer1;
+        }
+        else { return posIconPlayer2; }
     }
 }
