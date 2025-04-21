@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     //variables
+    [SerializeField] private Animator _animator;
     [SerializeField] float speed;
     [SerializeField] Rigidbody2D rb;
     Vector2 move;
@@ -18,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     //methods
     private void OnEnable()
     {
+        if(!_animator) _animator = GetComponent<Animator>();
         ScoreManager.OnGameOver += DisableMovement;
     }
 
@@ -30,6 +32,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (canMove)
         {
+            _animator.SetFloat("X", move.x);
+            _animator.SetFloat("Y", move.y);
             rb.linearVelocity = new Vector2(move.x, move.y) * speed * Time.deltaTime;
         }
         else
