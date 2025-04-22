@@ -212,10 +212,21 @@
                 {
                     "name": "",
                     "id": "b3c1c7f0-bd20-4ee7-a0f1-899b24bca6d7",
-                    "path": "<Keyboard>/space",
+                    "path": "<Keyboard>/leftAlt",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "154bbd2d-9e8b-46d7-b0b1-a7e272e2f5b3",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -973,11 +984,33 @@
                 },
                 {
                     "name": "",
+                    "id": "73d00ecf-5ff1-4504-8352-243300f8731c",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "f519e04a-5201-40c9-81cd-4e58e953cc21",
-                    "path": "<Keyboard>/numpad0",
+                    "path": "<Keyboard>/rightAlt",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse;Arrows",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fae249e2-35ae-46a5-82bf-1e7ded87497b",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false

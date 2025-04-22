@@ -22,7 +22,7 @@ public class GameOverManager : MonoBehaviour
     {
         GameManager.SwitchState(GameState.GameOver);
         CalculateScore();
-        EndGamePanel.SetActive(true);
+        UIManager.Instance.SwitchPanel("GameOver");
     }
 
     void CalculateScore()

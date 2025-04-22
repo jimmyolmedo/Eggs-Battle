@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickedAudio: {fileID: 8300000, guid: 4f05cb8fc010d9647bed6682534f6817, type: 3}
+  collider: {fileID: 6115309255394401076}
   sprites:
   - {fileID: 3929453942698372637, guid: e49414864d69939469831f5e37c1c3c1, type: 3}
   - {fileID: 1026407549584056185, guid: e49414864d69939469831f5e37c1c3c1, type: 3}

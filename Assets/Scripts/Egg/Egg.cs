@@ -6,7 +6,7 @@ using static UnityEditor.Experimental.GraphView.GraphView;
 public class Egg : MonoBehaviour
 {
     [SerializeField] AudioClip pickedAudio;
-
+    [SerializeField] Collider2D collider;
     [SerializeField] private List<Sprite> sprites = new List<Sprite>();
     [SerializeField] private SpriteRenderer spriteRenderer;
 
@@ -21,8 +21,9 @@ public class Egg : MonoBehaviour
     }
     public void Collected(Player _player)
     {
+        collider.enabled = false;
         StartCoroutine(Collect(_player));
-        //Spawner.instance.EggsCount--;
+        Spawner.instance.EggsCount--;
         //ScoreManager.instance.GetScore(_player.PlayerID);
         //AudioManager.instance.PlayAudio(pickedAudio);
         //Destroy(gameObject);
@@ -37,13 +38,8 @@ public class Egg : MonoBehaviour
 
     IEnumerator Collect(Player player)
     {
-        Spawner.instance.EggsCount--;
         Vector2 startPos = transform.position;
-
         Vector2 endPos = ScoreManager.instance.GetPositionIcon(player.PlayerID).position;
-
-
-
         AudioManager.instance.PlayAudio(pickedAudio);
         for (float i = 0; i < 1f ; i += Time.deltaTime)
         {

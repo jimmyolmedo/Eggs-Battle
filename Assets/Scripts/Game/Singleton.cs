@@ -17,5 +17,10 @@ public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
         }
 
         instance = this as T;
+
+        if(persistent)
+        {
+            DontDestroyOnLoad(instance);
+        }
     }
 }
