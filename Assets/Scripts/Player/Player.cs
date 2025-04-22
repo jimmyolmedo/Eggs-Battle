@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     //tiempo que puede pasar como maximo antes de que el jugador se pueda mover nuevamente
     [SerializeField] float freezeTime;
 
+    [SerializeField] private GameObject frostVisuals;
+
     //properties
     public int PlayerID
     {
@@ -65,6 +67,7 @@ public class Player : MonoBehaviour
 
     IEnumerator FrostState()
     {
+        frostVisuals.SetActive(true);
         while(true)
         {
             if (pM.IsTryMoving)
@@ -78,6 +81,7 @@ public class Player : MonoBehaviour
             if(freezeTime >= 10 || freezeCount == 0)
             {
                 pM.EnableMovement();
+                frostVisuals.SetActive(false);
                 break;
             }
             yield return null;
