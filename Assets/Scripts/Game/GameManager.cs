@@ -13,6 +13,7 @@ using UnityEngine;
         // comportamiento inicial del juego, pero esto se soluciona con la variable
         // initialState mencionada mas abajo.
         Menu,
+        Tutorial,
         Gameplay,
         Pause,
         Victory,

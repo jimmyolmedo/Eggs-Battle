@@ -4,6 +4,10 @@ public class PauseManager : MonoBehaviour
 {
     bool inPause;
 
+    private void Start()
+    {
+        inPause = true;
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -12,11 +16,13 @@ public class PauseManager : MonoBehaviour
         }
     }
 
+
     public void SwitchPauseState()
     {
         if (inPause)
         {
             UIManager.Instance.SwitchPanel("GameStatus");
+            GameManager.SwitchState(GameState.Gameplay);
             Time.timeScale = 1f;
             inPause = false;
         }
