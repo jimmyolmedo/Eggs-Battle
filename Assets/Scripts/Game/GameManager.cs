@@ -68,5 +68,6 @@ using UnityEngine;
             // Aqui actualizaremos la propiedad y ejecutaremos el evento.
             CurrentState = state;
             OnStateChange?.Invoke(state);
+            Debug.Log(CurrentState);
         }
     }

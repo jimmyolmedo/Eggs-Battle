@@ -49,9 +49,14 @@ MonoBehaviour:
   pickedAudio: {fileID: 8300000, guid: 4f05cb8fc010d9647bed6682534f6817, type: 3}
   collider: {fileID: 6115309255394401076}
   sprites:
-  - {fileID: 3929453942698372637, guid: e49414864d69939469831f5e37c1c3c1, type: 3}
-  - {fileID: 1026407549584056185, guid: e49414864d69939469831f5e37c1c3c1, type: 3}
-  - {fileID: -3086720242725003937, guid: e49414864d69939469831f5e37c1c3c1, type: 3}
+  - {fileID: -1112934526, guid: 66cf6c3a9f3bded45901aca492784587, type: 3}
+  - {fileID: -497464857, guid: 66cf6c3a9f3bded45901aca492784587, type: 3}
+  - {fileID: 271828149332514456, guid: 66cf6c3a9f3bded45901aca492784587, type: 3}
+  - {fileID: -1759823174, guid: 66cf6c3a9f3bded45901aca492784587, type: 3}
+  - {fileID: -463691900, guid: 66cf6c3a9f3bded45901aca492784587, type: 3}
+  - {fileID: -2025317661, guid: 66cf6c3a9f3bded45901aca492784587, type: 3}
+  - {fileID: -321247946, guid: 66cf6c3a9f3bded45901aca492784587, type: 3}
+  - {fileID: 1403295809, guid: 66cf6c3a9f3bded45901aca492784587, type: 3}
   spriteRenderer: {fileID: 7899642285789434046}
 --- !u!70 &6115309255394401076
 CapsuleCollider2D:
@@ -166,7 +171,7 @@ SpriteRenderer:
   m_SortingLayerID: 207688749
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1026407549584056185, guid: e49414864d69939469831f5e37c1c3c1, type: 3}
+  m_Sprite: {fileID: 1403295809, guid: 66cf6c3a9f3bded45901aca492784587, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

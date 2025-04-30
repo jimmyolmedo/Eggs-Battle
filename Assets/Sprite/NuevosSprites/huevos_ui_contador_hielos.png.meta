@@ -1,0 +1,820 @@
+fileFormatVersion: 2
+guid: 66cf6c3a9f3bded45901aca492784587
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5788677597022127816
+    second: huevos_ui_contador_hielos_0
+  - first:
+      213: -6048164945301117963
+    second: huevos_ui_contador_hielos_1
+  - first:
+      213: -2952993899210590910
+    second: huevos_ui_contador_hielos_2
+  - first:
+      213: 6937959514252805729
+    second: huevos_ui_contador_hielos_3
+  - first:
+      213: -4298244839691231678
+    second: huevos_ui_contador_hielos_4
+  - first:
+      213: -8794464507432160336
+    second: huevos_ui_contador_hielos_5
+  - first:
+      213: -1940850273576059821
+    second: huevos_ui_contador_hielos_6
+  - first:
+      213: -6355864932872083252
+    second: huevos_ui_contador_hielos_7
+  - first:
+      213: 5865183490790961378
+    second: huevos_ui_contador_hielos_8
+  - first:
+      213: -7692462534696594662
+    second: huevos_ui_contador_hielos_9
+  - first:
+      213: 3393103442231735655
+    second: huevos_ui_contador_hielos_10
+  - first:
+      213: 271828149332514456
+    second: huevos_ui_contador_hielos_11
+  - first:
+      213: 1144952089223455045
+    second: huevos_ui_contador_hielos_12
+  - first:
+      213: 7525306101766115674
+    second: huevos_ui_contador_hielos_13
+  - first:
+      213: -2539409878241330264
+    second: huevos_ui_contador_hielos_14
+  - first:
+      213: -4091939077121302248
+    second: huevos_ui_contador_hielos_15
+  - first:
+      213: 1953213968310095569
+    second: huevos_ui_contador_hielos_16
+  - first:
+      213: 1883529843550376415
+    second: huevos_ui_contador_hielos_17
+  - first:
+      213: -3494636857963514689
+    second: huevos_ui_contador_hielos_18
+  - first:
+      213: -6142942939718741276
+    second: huevos_ui_contador_hielos_19
+  - first:
+      213: 2824254888094650091
+    second: huevos_ui_contador_hielos_20
+  - first:
+      213: 3127512998769915850
+    second: huevos_ui_contador_hielos_21
+  - first:
+      213: -3105196662152342100
+    second: huevos_ui_contador_hielos_22
+  - first:
+      213: -648834781985300458
+    second: huevos_ui_contador_hielos_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 882
+        width: 165
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c604c1da93855050800000000000000
+      internalID: 5788677597022127816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 881
+        width: 165
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16684195b65984060800000000000000
+      internalID: 6937959514252805729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contador1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 900
+        width: 160
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 30, z: 20, w: 30}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e5c8467119954c0800000000000000
+      internalID: -4298244839691231678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Contador2
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 900
+        width: 160
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 20, y: 30, z: 20, w: 30}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3b9b42029c3f580800000000000000
+      internalID: -8794464507432160336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hielo2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 834
+        width: 145
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c774195f6b015e0800000000000000
+      internalID: -1940850273576059821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timer
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 702
+        width: 288
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 50, z: 50, w: 50}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc82cc3b48e6bc7a0800000000000000
+      internalID: -6355864932872083252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hielo
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 547
+        width: 290
+        height: 235
+      alignment: 9
+      pivot: {x: 0.46979475, y: 0.66086996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0b41f4f41556150800000000000000
+      internalID: 5865183490790961378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 390
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8969ae8f24ab5c300800000000000000
+      internalID: 271828149332514456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_18
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 210
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4f8160b4e808fc0800000000000000
+      internalID: -3494636857963514689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_19
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 210
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2129a61f1efbaa0800000000000000
+      internalID: -6142942939718741276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 390
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d4c1f03828e904786eb738b599e650
+      internalID: -497464857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 390
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e54339fca29894faf40f544575f125
+      internalID: -1112934526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_24
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 390
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09eaa48371629084797e9d406a941aa4
+      internalID: -1759823174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 526
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631c85dba2868c047ba52d4a395a7bf5
+      internalID: -463691900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_26
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 526
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4408747e26058ab49bf6c92b810528b7
+      internalID: -2025317661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_27
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 526
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac8f0de17297734dab3082a86251cdc
+      internalID: -321247946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_28
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 527
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ce5d348550b0c4cab540f13a2dc5dc
+      internalID: 1403295809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 245
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cca655704e5584696cb206b8753c29
+      internalID: 981780224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 245
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5206e7da518ce942a6db6053f555e1c
+      internalID: -911236416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 245
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015871c59f1f4014d8a73cf051f49095
+      internalID: 648180013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 245
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739cb9631db918c45ab571454c1eb67c
+      internalID: -2033981105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_6
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 245
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d092a9d4b1051144a1ce229eb9564a0
+      internalID: -617740018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_7
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 245
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6bf11eccf35094cb7c82ed8a3ae61f
+      internalID: 1228475337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 107
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a035f31fa152c544a2c854348f73b81
+      internalID: -372144075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 106
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90053750d7785d4b9a7cca0d3406b48
+      internalID: -7692462534696594662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_10
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 108
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0314f2bf83f295b41881c4de003ece66
+      internalID: 3393103442231735655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos_ui_contador_hielos_12
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 107
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c9fa41cf2c86a47b0d966739d6ff2f
+      internalID: 1144952089223455045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b0b5f485433ea88488d085b5305a8986
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Contador1: -4298244839691231678
+      Contador2: -8794464507432160336
+      Hielo: 5865183490790961378
+      Hielo2: -1940850273576059821
+      Logo1: 5788677597022127816
+      Logo2: 6937959514252805729
+      Timer: -6355864932872083252
+      huevos_ui_contador_hielos_0: 981780224
+      huevos_ui_contador_hielos_1: -1112934526
+      huevos_ui_contador_hielos_10: 3393103442231735655
+      huevos_ui_contador_hielos_11: 271828149332514456
+      huevos_ui_contador_hielos_12: 1144952089223455045
+      huevos_ui_contador_hielos_13: 7525306101766115674
+      huevos_ui_contador_hielos_14: -2539409878241330264
+      huevos_ui_contador_hielos_15: -4091939077121302248
+      huevos_ui_contador_hielos_16: 1953213968310095569
+      huevos_ui_contador_hielos_17: 1883529843550376415
+      huevos_ui_contador_hielos_18: -3494636857963514689
+      huevos_ui_contador_hielos_19: -6142942939718741276
+      huevos_ui_contador_hielos_2: -497464857
+      huevos_ui_contador_hielos_20: 2824254888094650091
+      huevos_ui_contador_hielos_21: 3127512998769915850
+      huevos_ui_contador_hielos_22: -3105196662152342100
+      huevos_ui_contador_hielos_23: -648834781985300458
+      huevos_ui_contador_hielos_24: -1759823174
+      huevos_ui_contador_hielos_25: -463691900
+      huevos_ui_contador_hielos_26: -2025317661
+      huevos_ui_contador_hielos_27: -321247946
+      huevos_ui_contador_hielos_28: 1403295809
+      huevos_ui_contador_hielos_29: -1956953615
+      huevos_ui_contador_hielos_3: -911236416
+      huevos_ui_contador_hielos_4: 648180013
+      huevos_ui_contador_hielos_5: -2033981105
+      huevos_ui_contador_hielos_6: -617740018
+      huevos_ui_contador_hielos_7: 1228475337
+      huevos_ui_contador_hielos_8: -372144075
+      huevos_ui_contador_hielos_9: -7692462534696594662
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

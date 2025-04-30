@@ -49,14 +49,18 @@ public class ScoreManager : Singleton<ScoreManager>
 
     private void Update()
     {
-        if(timer > 0)
+        if(GameManager.CurrentState == GameState.Gameplay)
         {
-            timer -= Time.deltaTime;
+            if (timer > 0)
+            {
+                timer -= Time.deltaTime;
+            }
+            else
+            {
+                timer = 0;
+            }
         }
-        else
-        {
-            timer = 0;
-        }
+        
         //cambiar el timer a entero y asignarselo a textTime
         int time = (int)timer;
         textTime.text = time.ToString();
