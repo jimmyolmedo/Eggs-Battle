@@ -4883,8 +4883,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 207688749
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0
@@ -4945,7 +4945,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.015, y: -0.066, z: 0}
-  m_LocalScale: {x: 1.65266, y: 1.65266, z: 1.65266}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2246313023345350455}
@@ -4994,7 +4994,7 @@ SpriteRenderer:
   m_SortingLayerID: 207688749
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4556197565260342421, guid: e49414864d69939469831f5e37c1c3c1, type: 3}
+  m_Sprite: {fileID: -3494636857963514689, guid: 66cf6c3a9f3bded45901aca492784587, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

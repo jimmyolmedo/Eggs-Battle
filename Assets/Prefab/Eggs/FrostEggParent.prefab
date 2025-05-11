@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.013, y: -0.077, z: 0}
-  m_LocalScale: {x: 1.6526635, y: 1.6526635, z: 1.6526635}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1521258091348488136}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 207688749
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8058879627694289943, guid: e49414864d69939469831f5e37c1c3c1, type: 3}
+  m_Sprite: {fileID: -6142942939718741276, guid: 66cf6c3a9f3bded45901aca492784587, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4885,8 +4885,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 207688749
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0

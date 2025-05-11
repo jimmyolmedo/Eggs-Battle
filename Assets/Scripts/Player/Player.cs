@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     [SerializeField] float freezeTime;
 
     [SerializeField] private GameObject frostVisuals;
+    [SerializeField] private UnityEngine.UI.Image eggUI;
 
     //properties
     public int PlayerID
@@ -32,6 +33,8 @@ public class Player : MonoBehaviour
     public void PickObject(PickableObject _obj)
     {
         pickedObject = _obj;
+        eggUI.gameObject.SetActive(true);
+        eggUI.sprite = pickedObject.GetComponentInChildren<SpriteRenderer>().sprite;
     }
 
     public void Attack(InputAction.CallbackContext context)
@@ -47,6 +50,7 @@ public class Player : MonoBehaviour
         {
             pickedObject.ObjectEffect(context, this);
             pickedObject = null;
+            eggUI.gameObject.SetActive(false);
         }
     }
 
